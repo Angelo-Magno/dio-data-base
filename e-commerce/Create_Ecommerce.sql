@@ -7,7 +7,7 @@ USE e_commerce;
 CREATE TABLE clients (
 	idClient INT AUTO_INCREMENT,
 	Fname VARCHAR(10),
-    Minit CHAR(3),
+	Minit CHAR(3),
 	Lname VARCHAR(20),
 	CPF CHAR(11) NOT NULL,
 	Address VARCHAR(30),
